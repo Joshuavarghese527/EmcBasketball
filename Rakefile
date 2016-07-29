@@ -4,3 +4,6 @@
 require File.expand_path('../config/application', __FILE__)
 
 EmcBasketball::Application.load_tasks
+
+require "frontend_generators"
+load 'tasks/add_assets.rake'
